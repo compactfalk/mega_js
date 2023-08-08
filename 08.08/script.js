@@ -6,19 +6,14 @@
    myFunc(data); // [3, 2, 1]
 */
 
-const reverse_array = (A, B, n) => {
-    for(let i = 0; i < n; i++)
+const reverse_array = (A) => {
+    for(let i = 0; i < A.lenght; i++)
         B[i] = A.pop();
     document.write(B);
     return B;
 }
 
-const n = Number(prompt());
-let A = new Array(n);
-for(let i = 0; i < n; i++)
-    A[i] = prompt();
 let B = new Array(n);
-
 reverse_array(A, B, n);
 
 /*
