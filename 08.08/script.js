@@ -14,7 +14,7 @@ const reverse_array = (A) => {
 }
 
 let B = new Array(n);
-reverse_array(A, B, n);
+reverse_array(A);
 
 /*
 2) Пользователь вводит число от 1 до 31, которое присваивается переменной day. 
